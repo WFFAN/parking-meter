@@ -45,13 +45,13 @@ def meters_by_district(Baseparent, Saveparent, dictpath, div_by):
         print('done!')
     print('DONE!!!DONE!!!!')
 
+meters_by_district(Baseparent=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\area\by_HK\HK",
+                    Saveparent=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\area\by_region",
+                    dictpath=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\parkingspaces_211206_dict.csv",
+                    div_by=r"Region")
+meters_by_district(Baseparent=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\area\by_HK\HK",
+                    Saveparent=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\area\by_district",
+                    dictpath=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\parkingspaces_211206_dict.csv",
+                    div_by=r"District")
 
-# meters_by_district(Baseparent=r"D:\POLYU_dissertation\parking_meter_0412_0425\day_consider_status",
-#                    Saveparent=r"D:\POLYU_dissertation\parking_meter_0412_0425\area_meters_0412_0425\by_district",
-#                    dictpath=r"D:\POLYU_dissertation\parking_meter_0412_0425\meters_region\parkingspaces_210504_dict.csv",
-#                    div_by=r"District")
 
-# meters_by_district(Baseparent=r"D:\POLYU_dissertation\parking_meter_0412_0425\day_consider_status",
-#                     Saveparent=r"D:\POLYU_dissertation\parking_meter_0412_0425\area_meters_0412_0425\by_region",
-#                     dictpath=r"D:\POLYU_dissertation\parking_meter_0412_0425\meters_region\parkingspaces_210504_dict.csv",
-#                     div_by=r"Region")
