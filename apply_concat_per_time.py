@@ -14,7 +14,3 @@ def apply_time_day(Base_parent, Save_parent):
         concat_per_time.time_day(Basepath=mid_path,
                                  Savepath=sapa)
     print("DONE!!!")
-
-## apply_time_day(Base_parent=r"D:\POLYU_dissertation\parking_meter_0412_0425\day_consider_status",
-##               Save_parent=r"D:\POLYU_dissertation\parking_meter_0412_0425\concat_day_costa")
-
