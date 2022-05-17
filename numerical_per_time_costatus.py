@@ -35,9 +35,6 @@ def numerical_fimin_costatus(Baseparentpath, Saveparentpath):
         print('done')
     print('DONE!!!')
 
-# numerical_fimin_costatus(Baseparentpath=r"D:\POLYU_dissertation\clean_meter_July_2021",
-#                 Saveparentpath=r"D:\POLYU_dissertation\July_2021_useful\area\by_HK")
-# numerical_fimin_costatus(Baseparentpath=r"D:\POLYU_dissertation\test\clean_meter1",
-#                 Saveparentpath=r"D:\POLYU_dissertation\test\numerical")
-numerical_fimin_costatus(Baseparentpath=r"E:\2022dissertation\July_Sept\August_Sept_clean",
-                Saveparentpath=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\area\by_HK\HK")
+numerical_fimin_costatus(Baseparentpath=r"D:\POLYU_dissertation\clean_meter_July_2021",
+                 Saveparentpath=r"D:\POLYU_dissertation\July_2021_useful\area\by_HK")
+
