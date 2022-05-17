@@ -16,8 +16,8 @@ def mulfol_clean_data(based_parent_folder, saved_parent_folder):
         piece_savedfolder_name = piece_basedfolder.name
         piece_savedfolder = saved_parent_path/piece_savedfolder_name
 
-        #every 'for' circle creates new folder the same name as original folder name
-        #if this folder exist, then it will be continued
+        # every 'for' circle creates new folder the same name as original folder name
+        # if this folder exist, then it will be continued
         piece_savedfolder.mkdir(exist_ok=True,parents=True)
 
         #now let's clean original csv in every day folder(namely,'piece_basedfolder')
