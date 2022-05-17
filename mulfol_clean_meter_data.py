@@ -25,8 +25,6 @@ def mulfol_clean_data(based_parent_folder, saved_parent_folder):
         c_d(need_clean_path=piece_basedfolder, saved_path=piece_savedfolder)
     print('DONE!!!')
 
-# mulfol_clean_data(based_parent_folder=r'D:\POLYU_dissertation\meter_July_2021',
-#                   saved_parent_folder=r'D:\POLYU_dissertation\clean_meter_July_2021')
+mulfol_clean_data(based_parent_folder=r'D:\POLYU_dissertation\meter_July_2021',
+                  saved_parent_folder=r'D:\POLYU_dissertation\clean_meter_July_2021')
 
-mulfol_clean_data(based_parent_folder=r'E:\2022dissertation\August_Sept_ori',
-                  saved_parent_folder=r'E:\2022dissertation\August_Sept_clean')
