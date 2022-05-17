@@ -10,9 +10,7 @@ import matplotlib.dates as mdates
 from datetime import datetime
 from datetime import time
 
-# if type=="weekend_weekday"
-# Basepath=weekend path
-# Basepath2 =weekday path
+
 
 def figure_hk_many(Basepath_allfive, Basepath_avweknd, Basepath_avwkday, Basepath_avperday,Savepath):
     bapa = p(Basepath_allfive)
@@ -92,18 +90,9 @@ def figure_hk_many(Basepath_allfive, Basepath_avweknd, Basepath_avwkday, Basepat
     plt.savefig(sapa, dpi=400)
 
 
-# figure_hk_many(Basepath_allfive=r"D:\POLYU_dissertation\July_2021_useful\useful_percentage_data\HK\all_five_minutes\HK.csv",
-#                Basepath_avweknd=r"D:\POLYU_dissertation\July_2021_useful\useful_percentage_data\HK\other_types\HK_weekend.csv",
-#                Basepath_avwkday=r"D:\POLYU_dissertation\July_2021_useful\useful_percentage_data\HK\other_types\HK_weekday.csv",
-#                Basepath_avperday=r"D:\POLYU_dissertation\July_2021_useful\useful_percentage_data\HK\other_types\HK_days.csv",
-#                Savepath=r"D:\POLYU_dissertation\July_2021_useful\useful_percentage_data\HK\figures\HK_average1.png")
-figure_hk_many(
-Basepath_allfive=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\useful_percentage_data\HK"
-                                r"\all_five_minutes\HK.csv",
-Basepath_avweknd=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\useful_percentage_data\HK\weekend_percentage"
-                 r"\HK_weekend.csv",
-Basepath_avwkday=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\useful_percentage_data\HK\weekday_percentage"
-                 r"\HK_weekday.csv",
-Basepath_avperday=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\useful_percentage_data\HK\all_percentage"
-                  r"\HK_days.csv",
-Savepath=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\useful_percentage_data\HK\figures\HK_average.png")
+figure_hk_many(Basepath_allfive=r"D:\POLYU_dissertation\July_2021_useful\useful_percentage_data\HK\all_five_minutes\HK.csv",
+               Basepath_avweknd=r"D:\POLYU_dissertation\July_2021_useful\useful_percentage_data\HK\other_types\HK_weekend.csv",
+               Basepath_avwkday=r"D:\POLYU_dissertation\July_2021_useful\useful_percentage_data\HK\other_types\HK_weekday.csv",
+               Basepath_avperday=r"D:\POLYU_dissertation\July_2021_useful\useful_percentage_data\HK\other_types\HK_days.csv",
+               Savepath=r"D:\POLYU_dissertation\July_2021_useful\useful_percentage_data\HK\figures\HK_average1.png")
+
