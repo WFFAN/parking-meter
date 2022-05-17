@@ -26,5 +26,5 @@ def mulfol_clean_data(based_parent_folder, saved_parent_folder):
     print('DONE!!!')
 
 mulfol_clean_data(based_parent_folder=r'D:\POLYU_dissertation\meter_July_2021',
-                  saved_parent_folder=r'D:\POLYU_dissertation\clean_meter_July_2021')
+                 saved_parent_folder=r'D:\POLYU_dissertation\clean_meter_July_2021')
 
