@@ -10,9 +10,7 @@ import matplotlib.dates as mdates
 from datetime import datetime
 from datetime import time
 
-# if type=="weekend_weekday"
-# Basepath=weekend path
-# Basepath2 =weekday path
+
 
 def figure_weekend_weekday(ax, Basepath, Basepath2, Savepath, type):
     bapa = p(Basepath)
