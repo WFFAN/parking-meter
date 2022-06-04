@@ -8,7 +8,7 @@ from clean_meter_data import clean_data as c_d
 # create folder, how to name it and saved path
 # how to clean data in different folder
 def mulfol_clean_data(based_parent_folder, saved_parent_folder):
-    #based_parent_path include piece_basedfolder
+    # based_parent_path include piece_basedfolder
     based_parent_path = p(based_parent_folder)
     # saved_parent_path include piece_savedfolder
     saved_parent_path = p(saved_parent_folder)
@@ -20,8 +20,8 @@ def mulfol_clean_data(based_parent_folder, saved_parent_folder):
         # if this folder exist, then it will be continued
         piece_savedfolder.mkdir(exist_ok=True,parents=True)
 
-        #now let's clean original csv in every day folder(namely,'piece_basedfolder')
-        #piece_csv means original every csv path under everyday folder
+        # now let's clean original csv in every day folder(namely,'piece_basedfolder')
+        # piece_csv means original every csv path under everyday folder
         c_d(need_clean_path=piece_basedfolder, saved_path=piece_savedfolder)
     print('DONE!!!')
 
