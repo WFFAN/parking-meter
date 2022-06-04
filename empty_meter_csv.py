@@ -1,9 +1,7 @@
 import pandas as pd
 from pathlib import Path as p
-# path_parent =p(r'D:\POLYU_dissertation\meter_August_Nov_2021')
-# path_parent =p(r"D:\POLYU_dissertation\July_2021_useful\area\by_district\Central & Western")
-#print(path1_parent)
-path_parent =p(r"E:\2022dissertation\August_Sept")
+
+path_parent =p(r"E:\2022dissertation\July") 
 
 Basepath=\
     r"D:\POLYU_dissertation\parking_meter_0412_0425\useful_percentage_data\per_district\all_five_minutes\Sha Tin.csv "
