@@ -45,13 +45,14 @@ def meters_by_district(Baseparent, Saveparent, dictpath, div_by):
         print('done!')
     print('DONE!!!DONE!!!!')
 
-meters_by_district(Baseparent=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\area\by_HK\HK",
-                    Saveparent=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\area\by_region",
-                    dictpath=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\parkingspaces_211206_dict.csv",
-                    div_by=r"Region")
-meters_by_district(Baseparent=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\area\by_HK\HK",
-                    Saveparent=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\area\by_district",
-                    dictpath=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\parkingspaces_211206_dict.csv",
-                    div_by=r"District")
+# sample
+# meters_by_district(Baseparent=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\area\by_HK\HK",
+#                     Saveparent=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\area\by_region",
+#                     dictpath=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\parkingspaces_211206_dict.csv",
+#                     div_by=r"Region")
+# meters_by_district(Baseparent=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\area\by_HK\HK",
+#                     Saveparent=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\area\by_district",
+#                     dictpath=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\parkingspaces_211206_dict.csv",
+#                     div_by=r"District")
 
 
