@@ -5,7 +5,6 @@ from pathlib import Path as p
 import copy
 
 
-
 def imputation(bapa1, bapa2, savpa):
     bapa1 = p(bapa1)
     bapa2 = p(bapa2)
@@ -37,17 +36,9 @@ def imputation(bapa1, bapa2, savpa):
     df_new.to_csv(savpa, index=None)
 
 
+# sample
 # imputation(
-# bapa1 = r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\imputation_csv\20210913_084501\084001.csv",
-# bapa2 = r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\imputation_csv\20210913_084501\085001.csv",
-# savpa = r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\imputation_csv\20210913_084501\084501.csv",
+# bapa1 = r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\imputation_csv\20210919_083001\082501.csv",
+# bapa2 = r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\imputation_csv\20210919_083001\083501.csv",
+# savpa = r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\imputation_csv\20210919_083001\083001.csv",
 # )
-
-
-
-
-imputation(
-bapa1 = r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\imputation_csv\20210919_083001\082501.csv",
-bapa2 = r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\imputation_csv\20210919_083001\083501.csv",
-savpa = r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\imputation_csv\20210919_083001\083001.csv",
-)
