@@ -48,15 +48,15 @@ impute_linear(
     Basepath=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\before_interpo\district_all_five",
     savepath=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\useful_percentage_data\per_district\all_five_minutes")
 
+# Sample
+# print("HK_check: ")
+# check_nan(
+# Basepath=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\useful_percentage_data\HK\all_five_minutes")
 
-print("HK_check: ")
-check_nan(
-Basepath=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\useful_percentage_data\HK\all_five_minutes")
+# print("region_check: ")
+# check_nan(
+# Basepath=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\useful_percentage_data\per_region\all_five_minutes")
 
-print("region_check: ")
-check_nan(
-Basepath=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\useful_percentage_data\per_region\all_five_minutes")
-
-print("district_check: ")
-check_nan(
-Basepath=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\useful_percentage_data\per_district\all_five_minutes")
+# print("district_check: ")
+# check_nan(
+# Basepath=r"E:\2022dissertation\July_Sept\July_Sept_2021_useful\useful_percentage_data\per_district\all_five_minutes")
