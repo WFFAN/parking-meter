@@ -7,8 +7,6 @@ from pathlib import Path as p
 # so, this row's OccupancyStatus will be removed
 # convert per 5 minutes csv to numerical csv, only have ParkingMeterStatus
 
-# path = p(r"D:\POLYU_dissertation\parking_meter_cleaned\day_data_numerical")
-# path = p(r"D:\POLYU_dissertation\parking_smalltest\ttt")
 def numerical_fimin_costatus(Baseparentpath, Saveparentpath):
     base_parent = p(Baseparentpath)
     save_parent = p(Saveparentpath)
@@ -17,7 +15,7 @@ def numerical_fimin_costatus(Baseparentpath, Saveparentpath):
         save_mid_path = save_parent/save_folder_name
         save_mid_path.mkdir(exist_ok=True)
         for piece in mid_path.iterdir():
-            #dtype!!!!
+            
             save_doc_name = piece.name
             save_doc_path = save_mid_path/save_doc_name
             df_o = pd.read_csv(piece, header=0, index_col=False, keep_default_na=True)
