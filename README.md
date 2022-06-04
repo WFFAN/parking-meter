@@ -30,3 +30,5 @@ Python 3.9
 - figure_region_district.py
 - figure_week.py
 - heatmap_day_district.py
+### *Data Visualization Output*
+https://drive.google.com/drive/folders/1Zx60lFaqngBa9b0TVYZmfavtDAYs2Trc?usp=sharing
