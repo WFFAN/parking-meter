@@ -72,7 +72,7 @@ def hour_percentage(Basefolder, Savefolder):
 
 
 ## this document can calcualat weekend average percentage, this is a tempoary document
-## it may should be adjusted next time
+## it may be adjusted next time
 
 def weekend_percentage_minute(Basefolder, Savefolder):
     bapa = p(Basefolder)
@@ -91,7 +91,7 @@ def weekend_percentage_minute(Basefolder, Savefolder):
 
 ## this document can calcualat weekend average percentage, this is a tempoary document
 ## it may should be adjusted next time
-## here, weekend is (20210417, 20210418, 20210424, 20210425)
+## here, weekends list are changeable
 def sunday_percentage_minute(Basefolder, Savefolder):
     bapa = p(Basefolder)
     sapa = p(Savefolder)
@@ -122,7 +122,7 @@ def sunday_percentage_minute(Basefolder, Savefolder):
 
 
 ## this document can calcualat weekday average percentage, this is a tempoary document
-## it may should be adjusted next time
+## the list may be adjusted next time
 def weekday_percentage_minute(Basefolder, Savefolder):
     bapa = p(Basefolder)
     sapa = p(Savefolder)
@@ -168,6 +168,7 @@ def allday_percentage_minute(Basefolder, Savefolder):
                                        Savepath=sapa,
                                        days_type='days',
                                        days_name=date_list)
+## sample
 
 ## weekend_percentage_hour(
 ##      Basefolder=r"D:\POLYU_dissertation\parking_meter_0412_0425\useful_percentage_data\per_region\all_one_hour",
