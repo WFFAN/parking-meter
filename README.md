@@ -3,26 +3,26 @@ Data processing and modeling.
 ## Requirements
 Python 3.9 
 ## File specifications
-### *Data processing*
-- apply_concat_per_time.py
-- apply_district_data_generation.py
-- calculate_average_percentage.py
-- calculate_time_percentage.py
-- clean_meter_data.py
-- concat_calculate_time_percentage.py
-- concat_per_time.py
-- district_data_generation.py
-- divided_meter_by.py
-- empty_meter_csv.py
-- identify_weekday_list.py
-- imputation_emptycsv.py
-- interpolate_linear.py
-- meter_dictionary.py
-- mulfol_clean_meter_data.py
-- numerical_per_time_costatus.py
-### *Data Clustering*
-- tSNE_Kmeans_avedays.py
-- tSNE_Kmeans_districts.py
+### *Data Processing*
+- empty_meter_csv.py: data detection 
+- identify_weekday_list.py: data detection
+- clean_meter_data.py: data pre-processing
+- mulfol_clean_meter_data.py: data pre-processing
+- numerical_per_time_costatus.py：data pre-processing
+- concat_per_time.py：data pre-processing
+- apply_concat_per_time.py：data pre-processing
+- imputation_emptycsv.py: data imputation
+- interpolate_linear.py: data imputation
+- meter_dictionary.py: a 'dictionary' of original data
+- divided_meter_by.py: data categorization
+- district_data_generation.py: data calculation
+- apply_district_data_generation.py: data calculation
+- calculate_average_percentage.py: data calculation
+- calculate_time_percentage.py: data calculation
+- concat_calculate_time_percentage.py: data calculation
+### *Data Modeling*
+- tSNE_Kmeans_avedays.py: dimension reduction and clustering 
+- tSNE_Kmeans_districts.py: dimension reduction and clustering 
 ### *Data Visualization*
 - figure_18subplots_week.py
 - figure_HK_Average.py
